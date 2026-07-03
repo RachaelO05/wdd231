@@ -1,0 +1,193 @@
+:root {
+    --primary: #ddd;
+    --secondary: #84afbd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30px auto 44px;
+    align-items: end;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px var(--primary);
+    column-gap: 8px;
+    background-color: var(--primary);
+}
+
+header img {
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+
+header span {
+    padding-bottom: .4rem;
+    padding-left: 1rem;
+    font-size: 150%;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: var(--secondary);
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 300%;
+    text-decoration: overline;
+}
+
+h2 {
+    background-color: var(--secondary);
+    padding: 1rem;
+    text-align: center;
+}
+
+section div p,
+section div img {
+    padding: 3rem;
+}
+
+section div img {
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    margin: 1rem;
+    font-size: 150%;
+    background-color: var(--primary);
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button {
+    font-size: 75%;
+    padding: .5rem;
+    border: solid 1px var(--secondary);
+    border-radius: 2rem;
+}
+
+.button button:hover {
+    background-color: var(--secondary);
+}
+
+.courses {
+    text-align: center;
+    font-size: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.courses p.completed {
+    background-color: var(--primary);
+    border: solid 2px var(--secondary);
+}
+
+.courses p.completed::before {
+    content: "✓ ";
+    font-weight: bold;
+}
+
+.courses p {
+    margin: .2rem;
+    padding: .2rem;
+    background-color: var(--secondary);
+}
+
+.credits {
+    display: block;
+    justify-self: center;
+    font-size: 80%;
+}
+
+footer {
+    background-color: var(--secondary);
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: center;
+}
+
+footer div {
+    background-color: var(--secondary);
+    font-size: 100%;
+}
+
+.social a {
+    display: block;
+    padding: .2rem;
+}
+
+.social img:hover {
+    filter: invert(93%) sepia(0%) saturate(24%) brightness(92%) contrast(84%);
+}
+
+.social img {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info p,
+.footer-info span {
+    padding: .2rem;
+}

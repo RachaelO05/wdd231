@@ -1,0 +1,55 @@
+@media only screen and (min-width: 800px) {
+
+    main {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 60px auto;
+        background-color: #fff;
+    }
+
+    .navigation {
+        background-color: #ddd;
+        padding-left: 1rem;
+    }
+
+    .navigation li.current {
+        background-color: #84afbd;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .button button {
+        padding: .8rem;
+        font-size: 120%;
+    }
+
+    .courses {
+        display: block;
+    }
+
+    .credits {
+        font-size: 100%;
+    }
+}
