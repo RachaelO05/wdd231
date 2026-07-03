@@ -1,11 +1,13 @@
 :root {
     --primary: #ddd;
     --secondary: #84afbd;
+    --font: "Raleway", sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--font);
 }
 
 header {
@@ -89,23 +91,24 @@ h2 {
     text-align: center;
 }
 
-section div p,
-section div img {
+div section p,
+div section img {
     padding: 3rem;
 }
 
-section div img {
+div section img {
     display: block;
     margin: 0 auto;
 }
 
-div {
+section {
     margin: 1rem;
     font-size: 150%;
     background-color: var(--primary);
 }
 
 .button {
+    padding: .5rem;
     display: flex;
     justify-content: space-around;
 }

@@ -15,6 +15,11 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/courses.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,19 +36,19 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <section>
-            <div>
+        <div>
+            <section>
                 <h2>About Me</h2>
                 <p>My Name is Rachael O'Moore and I'm from South Africa. I am currently studying the software development bachelors
                     degree at BYU. I am skilled in organization, problem-solving and a range of different coding languages such as:
                     python, C#, java, javascript, sql, html and css. I have independent work ethic and great time management.</p>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h2>Student Photo</h2>
                 <img src="images/student-photo.webp" alt="Student Photo" width="200" height="300">
-            </div>
-        </section>
-        <div>
+            </section>
+        </div>
+        <section>
             <h2>Web Certificate Courses</h2>
             <div id="button" class="button">
                 <button type="button" id="all">All Courses</button>
@@ -52,7 +57,7 @@
             </div>
             <div id="course" class="courses"></div>
             <span id="credits" class="credits"></span>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="social">
