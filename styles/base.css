@@ -152,6 +152,8 @@ section {
     display: block;
     justify-self: center;
     font-size: 80%;
+    padding: 1rem;
+    text-align: center;
 }
 
 footer {
@@ -164,6 +166,7 @@ footer {
     display: flex;
     background-color: var(--secondary);
     justify-content: center;
+    padding: .5rem;
 }
 
 footer div {
