@@ -1,0 +1,159 @@
+:root {
+    --primary: #fff;
+    --secondary: #cebbff;
+    --tertiary: #e7deff;
+    --accent: #5c429e;
+    --font: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30px auto 44px;
+    align-items: end;
+    padding: 1rem;
+    border-bottom: solid 1px var(--primary);
+    column-gap: 8px;
+    background-color: var(--secondary);
+}
+
+header img {
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+
+header span {
+    padding-bottom: .4rem;
+    padding-left: 1rem;
+    font-size: 100%;
+}
+
+.hamburger {
+    min-height: 44px;
+    min-width: 44px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+.navigation {
+    margin: .5rem;
+    padding: .5rem;
+    border: none;
+    display: none;
+    grid-column: 1 / -1;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px var(--tertiary);
+    border-top: solid 1px var(--tertiary);
+}
+
+.navigation li.current a {
+    color: var(--accent);
+}
+
+.navigation a:hover {
+    text-decoration: overline;
+}
+
+
+h1 {
+    font-size: 300%;
+    margin: 1rem;
+    padding: .2rem;
+}
+
+.buttons {
+    justify-self: center;
+    padding: 1rem;
+}
+
+.buttons button {
+    width: 150px;
+    padding: .6rem;
+    margin: 0 2rem;
+    border: solid 2px var(--secondary);
+    border-radius: 5%;
+    background-color: var(--tertiary);
+    font-size: 120%;
+}
+
+.buttons button:hover {
+    background-color: var(--primary);
+}
+
+.businesses {
+    margin: .5rem;
+    padding: .5rem;
+    justify-self: center;
+}
+
+footer {
+    padding: 1rem;
+    background-color: var(--secondary);
+}
+
+footer div {
+    padding: .5rem;
+}
+
+footer div p, footer div a, footer div span {
+    padding: .2rem;
+}
+
+.spans {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: center;
+    padding: .5rem;
+    border-bottom: solid 5px var(--accent);
+    border-top: solid 5px var(--accent);
+}
+
+.social img:hover {
+    filter: brightness(0) invert(1);
+}
+
+.social img {
+    width: 44px;
+    height: 44px;
+}

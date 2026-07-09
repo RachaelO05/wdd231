@@ -1,0 +1,94 @@
+{
+    "members": [
+            {
+                "name": "TechNova Solutions",
+                "description": "A software development company specializing in web applications, cloud solutions, and IT consulting for businesses of all sizes.",
+                "address": "12 Rivonia Rd, Sandton, Johannesburg",
+                "phonenumber": "+27 11 555 1234",
+                "websiteurl": "https://www.technovasolutions.co.za",
+                "image": "technova.webp",
+                "membershiplevel": 3
+            },
+            {
+                "name": "GreenLeaf Landscaping",
+                "description": "Provides professional landscaping, garden design, irrigation installation, and maintenance services for residential and commercial properties.",
+                "address": "45 Cedar Ave, Randburg, Johannesburg",
+                "phone": "+27 11 555 2345",
+                "website": "https://www.greenleaflandscaping.co.za",
+                "image": "greenleaf.webp",
+                "membership": 2
+            },
+            {
+                "name": "Urban Brew Café",
+                "description": "A modern café serving artisan coffee, fresh pastries, breakfast, and light lunches in a welcoming atmosphere.",
+                "address": "18 Oxford Rd, Rosebank, Johannesburg",
+                "phone": "+27 11 555 3456",
+                "website": "https://www.urbanbrew.co.za",
+                "image": "urbanbrew.webp",
+                "membership": 1
+            },
+            {
+                "name": "Skyline Construction",
+                "description": "Offers commercial and residential construction, renovations, project management, and sustainable building solutions.",
+                "address": "99 Main Rd, Midrand, Johannesburg",
+                "phone": "+27 11 555 4567",
+                "website": "https://www.skylineconstruction.co.za",
+                "image": "skyline.webp",
+                "membership": 3
+            },
+            {
+                "name": "Bright Future Academy",
+                "description": "An independent educational institution focused on academic excellence, leadership development, and extracurricular activities.",
+                "address": "7 Republic Rd, Ferndale, Randburg",
+                "phone": "+27 11 555 5678",
+                "website": "https://www.brightfutureacademy.co.za",
+                "image": "brightfuture.webp",
+                "membership": 2
+            },
+            {
+                "name": "Elite Fitness Centre",
+                "description": "A fully equipped gym offering personal training, group fitness classes, wellness coaching, and nutrition guidance.",
+                "address": "23 Jan Smuts Ave, Parktown, Johannesburg",
+                "phone": "+27 11 555 6789",
+                "website": "https://www.elitefitness.co.za",
+                "image": "elitefitness.webp",
+                "membership": 1
+            },
+            {
+                "name": "Golden Harvest Foods",
+                "description": "Supplies high-quality fresh produce, packaged foods, and catering products to retailers, restaurants, and wholesalers.",
+                "address": "56 Commissioner St, Johannesburg CBD",
+                "phone": "+27 11 555 7890",
+                "website": "https://www.goldenharvestfoods.co.za",
+                "image": "goldenharvest.webp",
+                "membership": 3
+            },
+            {
+                "name": "BlueWave Marketing",
+                "description": "A digital marketing agency providing branding, social media management, SEO, content creation, and online advertising services.",
+                "address": "31 Katherine St, Sandton",
+                "phone": "+27 11 555 8901",
+                "website": "https://www.bluewavemarketing.co.za",
+                "image": "bluewave.webp",
+                "membership": 2
+            },
+            {
+                "name": "EcoPower Energy",
+                "description": "Specializes in renewable energy solutions, including solar panel installations, battery storage, and energy efficiency consulting.",
+                "address": "88 Bryanston Dr, Bryanston",
+                "phone": "+27 11 555 9012",
+                "website": "https://www.ecopowerenergy.co.za",
+                "image": "ecopower.webp",
+                "membership": 3
+            },
+            {
+                "name": "Harmony Medical Centre",
+                "description": "A community healthcare clinic offering general medical consultations, vaccinations, diagnostic services, and preventative care.",
+                "address": "14 Republic Rd, Northcliff",
+                "phone": "+27 11 555 0123",
+                "website": "https://www.harmonymedical.co.za",
+                "image": "harmonymedical.webp",
+                "membership": 1
+            }
+        ]
+    }
