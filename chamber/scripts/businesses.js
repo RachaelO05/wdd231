@@ -26,15 +26,18 @@ const displayBusinesses = (businesses) => {
         address.textContent = `Address: ${business.address}`;
         phoneNumber.textContent = `Phone Number: ${business.phonenumber}`;
         websiteURL.textContent = `Website: ${business.websiteurl}`;
-        image.textContent = `${business.image}`;
-        membershipLevel.textContent = `Membership Lever: ${business.membership}`;
+        image.setAttribute('src', business.image);
+        image.setAttribute('alt', `${business.name} image`);
+        image.setAttribute('loading', 'lazy');
+        
+        membershipLevel.textContent = `Membership Level: ${business.membershiplevel}`;
 
         card.appendChild(name);
         card.appendChild(description);
         card.appendChild(address);
         card.appendChild(phoneNumber);
         card.appendChild(websiteURL);
-        card.appendChild(image);
+        card.appendChild(image)
         card.appendChild(membershipLevel);
 
         cards.appendChild(card);

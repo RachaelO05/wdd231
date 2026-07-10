@@ -122,6 +122,16 @@ h1 {
     justify-self: center;
 }
 
+.businesses section {
+    background-color: var(--secondary);
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.businesses p {
+    padding: .5rem;
+}
+
 footer {
     padding: 1rem;
     background-color: var(--secondary);
