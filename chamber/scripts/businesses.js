@@ -30,6 +30,8 @@ const displayBusinesses = (businesses) => {
 
         image.setAttribute('src', business.image);
         image.setAttribute('alt', `${business.name} image`);
+        image.setAttribute('width', 200);
+        image.setAttribute('height', 200);
         image.setAttribute('loading', 'lazy');
         
         address.innerHTML = `<span class="label"><strong>Address:</strong></span> ${business.address}`;

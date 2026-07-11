@@ -37,6 +37,10 @@
         display: flex;
     }
 
+    .buttons button {
+        width: 150px;
+    }
+
     .list h2, .list p {
         font-size: 130%;
     }

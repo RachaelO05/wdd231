@@ -103,9 +103,9 @@ h1 {
 }
 
 .buttons button {
-    width: 150px;
+    width: 120px;
     padding: .6rem;
-    margin: 0 2rem;
+    margin: 0 1rem;
     border: solid 2px var(--secondary);
     border-radius: 5%;
     background-color: var(--tertiary);
