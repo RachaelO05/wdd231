@@ -120,6 +120,7 @@ h1 {
     margin: .5rem;
     padding: .5rem;
     justify-self: center;
+    min-height: 2000px;
 }
 
 .businesses section {
@@ -174,6 +175,7 @@ h1 {
 .grid section {
     box-shadow: 8px 8px 16px 0px var(--accent);
     border: double 2px var(--tertiary);
+    min-height: 420px;
 }
 
 .grid h2 {
