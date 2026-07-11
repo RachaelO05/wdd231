@@ -125,11 +125,65 @@ h1 {
 .businesses section {
     background-color: var(--secondary);
     padding: .5rem;
-    margin: .5rem;
+    margin: 2rem;
 }
 
 .businesses p {
     padding: .5rem;
+}
+
+.list section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.list section:nth-child(even) {
+    background-color: var(--tertiary);
+}
+
+.list h2, .list p {
+    font-size: 75%;
+    align-self: center;
+}
+
+.list h2 {
+    width: 80px;
+}
+
+.list section img {
+    width:  44px;
+    height: 44px;
+    padding: .2rem;
+}
+
+.list .label {
+    display: none;
+}
+
+.grid .label {
+    display: inline;
+}
+
+.grid img, .grid h2 {
+    display: block;
+    justify-self: center;
+    padding: .5rem;
+}
+
+.grid section {
+    box-shadow: 8px 8px 16px 0px var(--accent);
+    border: double 2px var(--tertiary);
+}
+
+.grid h2 {
+    border-bottom: solid 2px var(--tertiary);
+    margin: .5rem;
+    font-size: 170%;
+}
+
+.grid p {
+    border-left: solid 2px var(--tertiary);
 }
 
 footer {

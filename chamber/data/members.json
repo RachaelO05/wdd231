@@ -1,7 +1,7 @@
 {
     "members": [
             {
-                "name": "TechNova Solutions",
+                "name": "Tech Nova Solutions",
                 "description": "A software development company specializing in web applications, cloud solutions, and IT consulting for businesses of all sizes.",
                 "address": "12 Rivonia Rd, Sandton, Johannesburg",
                 "phonenumber": "+27 11 555 1234",
@@ -10,7 +10,7 @@
                 "membershiplevel": 3
             },
             {
-                "name": "GreenLeaf Landscaping",
+                "name": "Green Leaf Landscaping",
                 "description": "Provides professional landscaping, garden design, irrigation installation, and maintenance services for residential and commercial properties.",
                 "address": "45 Cedar Ave, Randburg, Johannesburg",
                 "phonenumber": "+27 11 555 2345",
@@ -64,7 +64,7 @@
                 "membershiplevel": 3
             },
             {
-                "name": "BlueWave Marketing",
+                "name": "Blue Wave Marketing",
                 "description": "A digital marketing agency providing branding, social media management, SEO, content creation, and online advertising services.",
                 "address": "31 Katherine St, Sandton",
                 "phonenumber": "+27 11 555 8901",
