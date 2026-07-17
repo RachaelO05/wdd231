@@ -95,6 +95,11 @@ h1 {
     padding: .2rem;
 }
 
+h2 {
+    margin: 1rem;
+    pad: .2rem;
+}
+
 .hero h1 {
     background-color: var(--tertiary);
     padding: .5rem;
@@ -227,7 +232,7 @@ h1 {
     padding: .5rem;
 }
 
-.spotlights h1 {
+.spotlights h2, .weather h2 {
     grid-column: 1/4;
 }
 

@@ -44,11 +44,7 @@
         max-width: 1600px;
         min-height: 750px;
     }
-
-    .background {
-        height: 700px;
-    }
-
+    
     .background p {
         left: 190px;
     }
