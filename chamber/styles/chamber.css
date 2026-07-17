@@ -95,6 +95,13 @@ h1 {
     padding: .2rem;
 }
 
+.hero h1 {
+    background-color: var(--tertiary);
+    padding: .5rem;
+    position: absolute;
+    border: double 5px var(--accent);
+}
+
 .hero {
     position: relative;
 }
