@@ -1,7 +1,6 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
 
     main {
-        max-width: 1400px;
         margin: 0 auto;
     }
 
@@ -39,6 +38,45 @@
 
     .buttons button {
         width: 150px;
+    }
+    
+    .hero-image {
+        max-width: 1600px;
+        min-height: 750px;
+    }
+
+    .background {
+        height: 700;
+    }
+
+    .background p {
+        left: 190px;
+    }
+
+    .action-btn {
+        left: 200px;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .weather h1, .forecast h3 {
+        grid-column: 1/4;
+    }
+
+    .current-events {
+        margin: 0;
+        width: 500px;
+        position: absolute;
+        top: 135px;
+        right: 30px;
     }
 
     .list h2, .list p {

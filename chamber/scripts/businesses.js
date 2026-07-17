@@ -1,21 +1,32 @@
-const url = "https://rachaelo05.github.io/wdd231/chamber/data/members.json";
+const membersURL = "https://rachaelo05.github.io/wdd231/chamber/data/members.json";
 const cards = document.querySelector('#cards');
+const spotlight = document.querySelector('#spotlights');
 
 const gridbtn = document.querySelector('#grid-btn');
 const listbtn = document.querySelector('#list-btn');
 
 async function getBusinessData() {
-    const response = await fetch(url);
+    const response = await fetch(membersURL);
     const data = await response.json();
 
-    displayBusinesses(data.members);
+    if (cards) {
+        displayBusinesses(data.members, cards);
+    }
+
+    if (spotlight) {
+        displaySpotlights(data.members, spotlight);
+    }
 };
 
-getBusinessData();
+if (cards) {
+    cards.classList.add('grid');
+}
 
-cards.classList.add('grid');
+if (spotlight) {
+    spotlight.classList.add('grid');
+}
 
-const displayBusinesses = (businesses) => {
+const displayBusinesses = (businesses, section) => {
     businesses.forEach((business) => {
         let card = document.createElement('section');
 
@@ -46,16 +57,31 @@ const displayBusinesses = (businesses) => {
         card.appendChild(websiteURL);
         card.appendChild(membershipLevel);
 
-        cards.appendChild(card);
+        section.appendChild(card);
     });
 };
 
-gridbtn.addEventListener('click', () => {
-    cards.classList.add('grid');
-    cards.classList.remove('list');
-});
+if (gridbtn && listbtn) {
+    gridbtn.addEventListener('click', () => {
+        cards.classList.add('grid');
+        cards.classList.remove('list');
+    });
 
-listbtn.addEventListener('click', () => {
-    cards.classList.add('list');
-    cards.classList.remove('grid');
-});
+    listbtn.addEventListener('click', () => {
+        cards.classList.add('list');
+        cards.classList.remove('grid');
+    });
+}
+
+const displaySpotlights = (businesses, section) => {
+    const spotlightFilter = businesses.filter(
+        business => business.membershiplevel === 2 || business.membershiplevel === 3
+    );
+
+    spotlightFilter.sort(() => Math.random() - 0.5);
+
+    const selectedBusinneses = spotlightFilter.slice(0, 3);
+    displayBusinesses(selectedBusinneses, section);
+};
+
+getBusinessData();
