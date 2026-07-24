@@ -61,7 +61,7 @@
             
                         <label for="last-name">Last Name: *</label>
                         <input type="text" id="last-name" name="last-name" title="Please enter the applicant's last name"
-                            autocomplete="last-name" required>
+                            autocomplete="family-name" required>
             
                         <label for="title">Organization title:</label>
                         <input type="text" id="title" name="Organization-title" title="Please enter applicant's organization title"
@@ -92,9 +92,8 @@
                         </select>
             
                         <label for="organization-description">Organization description:</label>
-                        <textarea id="organization-description" name="organization-description"></textarea>
+                        <textarea id="organization-description" title="organization-description" name="organization-description"></textarea>
             
-                        <label for="timestamp"></label>
                         <input type="hidden" id="timestamp" name="timestamp">
             
                         <button type="submit">Submit Application</button>
@@ -201,3 +200,4 @@
         </div>
     </footer>
 </body>
+</html>
