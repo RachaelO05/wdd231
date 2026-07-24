@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 | Join Page for Johannesburg Chamber of Commerce</title>
+
+    <meta name="author" content="Rachael O'Moore">
+    <meta name="description"
+        content="Join Page. This page allows prospective members to fill out a form in order to join the Chamber of Commerce.">
+
+    <link rel="icon" href="images/favicon.ico" sizes="32x32">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+
+    <meta property="og:title" content="Johannesburg Chamber of Commerce Join Page">
+    <meta property="og:description"
+        content="This page allows prospective members to fill out a form in order to join the Chamber of Commerce.">
+    <meta property="og:image" content="https://rachaelo05.github.io/wdd231/chamber/images/technova.webp">
+    <meta property="og:url" content="https://rachaelo05.github.io/wdd231/chamber/join.html">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/businesses.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="150" height="150">
+        <span>Johannesburg Chamber of Commerce</span>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="https://rachaelo05.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://rachaelo05.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li class="current"><a href="https://rachaelo05.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
+    </header>
+    <main>
+        <section class="join">
+            <h1>Join</h1>
+            <section class="form">
+                <h2>Membership Application Form:</h2>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Personal Information:</legend>
+            
+                        <label for="first-name">First Name: *</label>
+                        <input type="text" id="first-name" name="first-name" title="Please enter the applicant's first name"
+                            autocomplete="given-name" required>
+            
+                        <label for="last-name">Last Name: *</label>
+                        <input type="text" id="last-name" name="last-name" title="Please enter the applicant's last name"
+                            autocomplete="last-name" required>
+            
+                        <label for="title">Organization title:</label>
+                        <input type="text" id="title" name="Organization-title" title="Please enter applicant's organization title"
+                            autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+            
+                        <label for="email">Email Address: *</label>
+                        <input type="email" id="email" name="email" title="Please enter applicant's email" autocomplete="email"
+                            placeholder="example@domain.com" required>
+            
+                        <label for="phone">Phone Number: *</label>
+                        <input type="tel" id="phone" name="phone-number" title="Please enter applicant's phone number"
+                            autocomplete="tel" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Information:</legend>
+            
+                        <label for="organization-name">Organization name: *</label>
+                        <input type="text" id="organization-name" name="organization-name"
+                            title="Please enter applicant's organization name" autocomplete="organization" required>
+            
+                        <label for="membership-level">Membership Level:</label>
+                        <select id="membership-level" name="membership-level">
+                            <option value="" disabled selected>Select a level: </option>
+                            <option value="np">NP Membership is for non profit organizations and there is no fee</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+            
+                        <label for="organization-description">Organization description:</label>
+                        <textarea id="organization-description" name="organization-description"></textarea>
+            
+                        <label for="timestamp"></label>
+                        <input type="hidden" id="timestamp" name="timestamp">
+            
+                        <button type="submit">Submit Application</button>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="membership-info">
+                <h2>Membership Levels:</h2>
+                <div>
+                    <p>Non Profit Membership Level</p>
+                    <button id="npBtn" type="button">Learn More</button>
+                    <dialog id="np-info" class="modal">
+                        <h3>Non Profit Membership Level</h3>
+                        <p>Cost: Free</p>
+                        <P>Benefits:</P>
+                        <div class="points">
+                            <p>Chamber membership at no cost for registered non-profit organizations.</p>
+                            <p>Listed in the online business directory.</p>
+                            <p>Receive the monthly Chamber newsletter.</p>
+                            <p>Access to networking events.</p>
+                            <p>Invitations to educational workshops and community events.</p>
+                            <p>Opportunities to collaborate with local businesses and organizations.</p>
+                        </div>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+                </div>
+                <div>
+                    <p>Bronze Membership Level</p>
+                    <button id="bronzeBtn" type="button">Learn More</button>
+                    <dialog id="bronze-info" class="modal">
+                        <h3>Bronze Membership</h3>
+                        <p>Cost: R500 per year</p>
+                        <P>Benefits:</P>
+                        <div class="points">
+                            <p>All Non-Profit Membership benefits.</p>
+                            <p>Discounted registration for Chamber events.</p>
+                            <p>Access to member-only business training sessions.</p>
+                            <p>Business promotion through Chamber social media.</p>
+                            <p>Opportunity to participate in Chamber committees.</p>
+                            <p>Priority notification of upcoming networking opportunities.</p>
+                        </div>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+                </div>
+                <div>
+                    <p>Silver Membership Level </p>
+                    <button id="silverBtn" type="button">Learn More</button>
+                    <dialog id="silver-info" class="modal">
+                        <h3>Silver Membership</h3>
+                        <p>Cost: R1,500 per year</p>
+                        <P>Benefits:</P>
+                        <div class="points">
+                            <p>All Bronze Membership benefits.</p>
+                            <p>Featured business spotlight on the Chamber home page.</p>
+                            <p>25% discount on Chamber-hosted events and workshops.</p>
+                            <p>Complimentary admission to one premium networking event each year.</p>
+                            <p>Access to exclusive business development seminars.</p>
+                        </div>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+                </div>
+                <div>
+                    <p>Gold Membership Level </p>
+                    <button id="goldBtn" type="button">Learn More</button>
+                    <dialog id="gold-info" class="modal">
+                        <h3>Gold Membership</h3>
+                        <p>Cost: R3,000 per year</p>
+                        <P>Benefits:</P>
+                        <div class="points">
+                            <p>All Silver Membership benefits.</p>
+                            <p>50% discount on Chamber events and training.</p>
+                            <p>Featured business in the monthly Chamber newsletter.</p>
+                            <p>Complimentary exhibitor booth at the annual Business Expo.</p>
+                            <p>VIP invitations to exclusive networking breakfasts and leadership events.</p>
+                            <p>Early access to sponsorship and partnership opportunities.</p>
+                            <p>Dedicated business support from Chamber staff.</p>
+                        </div>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p><strong>Johannesburg Chamber of Commerce</strong></p>
+            <p>123 Main St</p>
+            <p>Johannesburg, South Africa</p>
+            <p>info@joburgChamberCommerce.co.za</p>
+            <p>+27 12 345 6789</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/RachaelO05/wdd231"><img src="images/github.svg" alt="Github Logo" width="100"
+                    height="100"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="linkedin Logo" width="100"
+                    height="100"></a>
+            <a href="https://x.com/"><img src="images/twitter.svg" alt="Twitter Logo" width="100" height="100"></a>
+        </div>
+        <div class="spans">
+            <p>WDD 231 Class Project</p>
+            <p>Rachael O'Moore</p>
+            <span id="currentyear"></span>
+            <span id="lastModified"></span>
+        </div>
+    </footer>
+</body>

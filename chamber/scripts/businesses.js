@@ -85,3 +85,38 @@ const displaySpotlights = (businesses, section) => {
 };
 
 getBusinessData();
+
+const npBtn = document.querySelector("#npBtn");
+const bronzeBtn = document.querySelector('#bronzeBtn');
+const silverBtn = document.querySelector('#silverBtn');
+const goldBtn = document.querySelector('#goldBtn');
+
+const closeBtn = document.querySelectorAll('.closeModal');
+
+const npModal = document.querySelector('#np-info');
+const bronzeModal = document.querySelector('#bronze-info');
+const silverModal = document.querySelector('#silver-info');
+const goldModal = document.querySelector('#gold-info');
+
+npBtn.addEventListener('click', () => {
+    npModal.showModal();
+});
+
+bronzeBtn.addEventListener('click', () => {
+    bronzeModal.showModal();
+});
+
+silverBtn.addEventListener('click', () => {
+    silverModal.showModal();
+});
+
+goldBtn.addEventListener('click', () => {
+    goldModal.showModal();
+});
+
+closeBtn.forEach(button => {
+    button.addEventListener("click", () => {
+        button.closest("dialog").close();
+    });
+});
+

@@ -79,6 +79,7 @@ const courses = [
 ]
 
 const courseContainer = document.querySelector('#course');
+const courseDetails = document.querySelector('#course-details');
 let totalCredit = 12;
 
 function displayCourses(courses) {
@@ -93,6 +94,10 @@ function displayCourses(courses) {
         };
 
         courseContainer.appendChild(courseP);
+
+        courseP.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
     });
 };
 
@@ -100,6 +105,25 @@ function displayCredits(totalCredit) {
     const creditsContainer = document.querySelector('#credits');
     creditsContainer.innerHTML = `The total credits for the course listed above is: ${totalCredit}`;
 };
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>`;
+    courseDetails.showModal();
+
+    const closeModal = courseDetails.querySelector("#closeModal");
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
 
 displayCourses(courses);
 displayCredits(totalCredit);

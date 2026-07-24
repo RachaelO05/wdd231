@@ -311,6 +311,134 @@ h2 {
     border-left: solid 2px var(--tertiary);
 }
 
+.join button {
+    padding: .8rem;
+    background-color: var(--accent);
+    color: var(--primary);
+    margin: .5rem;
+}
+
+.join section, .join div, .membership-info p {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.membership-info {
+    align-self: center;
+}
+
+.membership-info div {
+    width: 80%;
+    padding: 2rem;
+    background-color: var(--secondary);
+    border: double 3px var(--accent);
+    font-size: 180%;
+    font-weight: 900;
+}
+
+.membership-info div:nth-child(odd) {
+    background-color: var(--tertiary);
+}
+
+.membership-info > div {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: popIn 0.6s ease forwards;
+}
+
+@keyframes popIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.form h2, .membership-info {
+    text-align: center;
+}
+
+form {
+    background-color: var(--tertiary);
+    text-align: left;
+    max-width: 400px;
+    justify-self: center;
+    border: double 5px var(--accent);
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+
+legend,
+label {
+    font-size: 120%;
+}
+
+fieldset {
+    padding: .5rem;
+}
+
+select {
+    width: 90%;
+    margin: .5rem;
+    padding: .3rem;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 85%;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+textarea {
+    width: 70%;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.points p{
+    font-size: 40%;
+    text-align: left;
+    display: list-item;
+    list-style-type: decimal;
+}
+
+.modal {
+    padding: 1rem;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.application-info {
+    padding: 1rem;
+    margin: 3rem;
+    width: 60%;
+    background-color: var(--tertiary);
+    border: double 5px var(--accent);
+}
+
+.application-info p {
+    padding: .5rem;
+}
+
+.application-info h2 {
+    text-decoration: overline;
+    font-size: 130%;
+}
+
 footer {
     padding: 1rem;
     background-color: var(--secondary);
