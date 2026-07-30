@@ -439,6 +439,62 @@ textarea {
     font-size: 130%;
 }
 
+.items div{
+    justify-self: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--tertiary);
+    border: double 5px var(--secondary);
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "picture"
+    "description"
+    "address"
+    "button";
+}
+
+.items h2 {
+    border-bottom: double 3px var(--accent);
+    grid-area: name;
+}
+
+.items address, .items p{
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.items p {
+    grid-area: description;
+}
+
+.items address {
+    grid-area: address;
+}
+
+.items figure {
+    justify-self: center;
+    grid-area: picture;
+}
+
+.items button {
+    display: block;
+    justify-self: center;
+    margin: .5rem;
+    padding: 1rem 3rem;
+    background-color: var(--accent);
+    color: var(--primary);
+    border: solid 1px var(--accent);
+    grid-area: button;
+}
+
+.items button:hover {
+    background-color: var(--secondary);
+    color: #000
+}
+
+
 footer {
     padding: 1rem;
     background-color: var(--secondary);

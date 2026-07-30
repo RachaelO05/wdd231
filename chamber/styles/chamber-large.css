@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
 
     main {
         margin: 0 auto;
@@ -111,6 +111,15 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .items h1 {
+        grid-column: 1/3;
+    }
+
     footer {
         display: flex;
         justify-content: space-evenly;
@@ -120,4 +129,6 @@
     .social {
         border: none;
     }
+
+    
 }
