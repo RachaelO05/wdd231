@@ -157,6 +157,7 @@ h2 {
     background-color: var(--secondary);
     border: solid 2px var(--accent);
     border-radius: 5%;
+    text-decoration: none;
 }
 
 .action-btn:hover {
@@ -494,6 +495,12 @@ textarea {
     color: #000
 }
 
+.message {
+    padding: .5rem;
+    margin: 1rem;
+    text-align: center;
+    border: double 5px var(--accent);
+}
 
 footer {
     padding: 1rem;
