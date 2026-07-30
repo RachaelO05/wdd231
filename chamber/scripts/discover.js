@@ -4,7 +4,7 @@ const itemContainer = document.querySelector('#items-cards');
 
 function displayCards() {
     items.forEach((item) => {
-        const div = document.createElement('div');
+        const section = document.createElement('section');
         const h2 = document.createElement('h2');
 
         const figure = document.createElement('figure');
@@ -27,13 +27,13 @@ function displayCards() {
         description.textContent = item.description;
         button.textContent = `Learn More!`;
 
-        div.appendChild(h2);
-        div.appendChild(figure);
-        div.appendChild(address);
-        div.appendChild(description);
-        div.appendChild(button);
+        section.appendChild(h2);
+        section.appendChild(figure);
+        section.appendChild(address);
+        section.appendChild(description);
+        section.appendChild(button);
 
-        itemContainer.appendChild(div);
+        itemContainer.appendChild(section);
     })
 }
 
