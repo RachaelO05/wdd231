@@ -1,7 +1,4 @@
 @media only screen and (min-width: 640px) {
-    .discover h1 {
-        width: 100%;
-    }
 
     .items section {
             grid-template-areas:
