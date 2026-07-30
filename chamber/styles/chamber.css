@@ -457,6 +457,10 @@ textarea {
     "button";
 }
 
+.discover h1 {
+    width: 200px;
+}
+
 .items h2 {
     border-bottom: double 3px var(--accent);
     grid-area: name;
