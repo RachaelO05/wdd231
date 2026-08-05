@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 | Final Project: Midnight Nook</title>
+
+    <meta name="author" content="Rachael O'Moore">
+    <meta name="description"
+        content="Final Project Index Page. This Page displays a hero image, what cozy games are and featured games.">
+
+    <meta property="og:title" content="Midnight Nook Home Page">
+    <meta property="og:description" content="This Page displays a hero image, what cozy games are and featured games.">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="https://rachaelo05.github.io/wdd231/finalproject/index.html">
+
+    <link rel="icon" href="images/favicon (1).ico" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+3&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/midnight-nook-small.css">
+    <link rel="stylesheet" href="styles/midnight-nook-large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="150" height="150">
+        <h1>Midnight Nook</h1>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="current"><a href="#">Recommendations</a></li>
+            </ul>
+        </nav>
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
+    </header>
+    <main>
+        <div class="hero">
+            <picture class="hero-image-medium">
+                <source srcset="images/hero-img-medium.webp" media="(min-width: 700px)">
+                <img src="images/hero-img-small.webp" alt="hero-img" loading="lazy">
+            </picture>
+            <div class="recommend-text">
+                <span>Got a cozy game you'd recommend to others?</span>
+                <p>Fill out our form so we can add it to our library!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div class="icons">
+                <img src="images/heart.svg" alt="Heart Icon" width="50" height="50">
+            </div>
+            <h3><strong>Save Your Favorites</strong></h3>
+            <p>Build your collection and never lose a favorite.</p>
+        </section>
+        <section>
+            <div class="icons">
+                <img src="images/cup.svg" alt="Cup Icon" width="50" height="50">
+            </div>
+            <h3><strong>Relax & Unwind</strong></h3>
+            <p>Take a break and find something to unwind with.</p>
+        </section>
+        <section>
+            <div class="icons">
+                <img src="images/help.svg" alt="Help Icon" width="50" height="50">
+            </div>
+            <h3><strong>Support: </strong></h3>
+            <p><strong>Phone: </strong>012 345 6789</p>
+            <p><strong>Email: </strong>info@midnightnook.co.za</p>
+        </section>
+    </footer>
+</body>
+</html>

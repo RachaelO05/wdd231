@@ -1,0 +1,1550 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Stardew Valley",
+      "image": "images/games/stardew-valley.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "RPG",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mobile"
+      ],
+      "developer": "ConcernedApe",
+      "releaseYear": 2016,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "60+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Restore your grandfather's old farm, grow crops, raise animals, fish, mine for resources, and build friendships with the townspeople. Play at your own pace in one of the most beloved cozy farming games ever made.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+    },
+    {
+      "id": 2,
+      "title": "The Sims 4",
+      "image": "images/games/sims-4.webp",
+      "genre": [
+        "Life Simulation",
+        "Sandbox",
+        "Building"
+      ],
+      "platforms": [
+        "PC",
+        "Mac",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Maxis",
+      "releaseYear": 2014,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "100+ hours",
+      "artStyle": "3D",
+      "priceRange": "Free",
+      "description": "Create unique Sims, design dream homes, build relationships, and tell your own stories. With endless customization and expansion packs, every save feels different.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1222670/The_Sims_4/"
+    },
+    {
+      "id": 3,
+      "title": "Minecraft",
+      "image": "images/games/minecraft.webp",
+      "genre": [
+        "Sandbox",
+        "Survival",
+        "Building",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mobile"
+      ],
+      "developer": "Mojang Studios",
+      "releaseYear": 2011,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "Unlimited",
+      "artStyle": "Voxel",
+      "priceRange": "Expensive",
+      "description": "Explore an endless blocky world where you can build, decorate, farm, fish, and survive however you like. Creative Mode offers a peaceful experience perfect for cozy builders.",
+      "isFavorite": false,
+      "storeLink": "https://www.minecraft.net/"
+    },
+    {
+      "id": 4,
+      "title": "Supermarket Simulator",
+      "image": "images/games/supermarket-simulator.webp",
+      "genre": [
+        "Simulation",
+        "Management",
+        "Business"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Nokta Games",
+      "releaseYear": 2024,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "30+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Stock shelves, set prices, decorate your store, and grow your own successful supermarket. Expand your business while enjoying a relaxing management experience.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2670630/Supermarket_Simulator/"
+    },
+    {
+      "id": 5,
+      "title": "PowerWash Simulator",
+      "image": "images/games/power-wash.webp",
+      "genre": [
+        "Simulation",
+        "Casual"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "FuturLab",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "35+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Wash away dirt from vehicles, playgrounds, homes, and more using satisfying pressure washing mechanics. It's surprisingly relaxing and perfect for unwinding.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/"
+    },
+    {
+      "id": 6,
+      "title": "Unpacking",
+      "image": "images/games/unpacking.webp",
+      "genre": [
+        "Puzzle",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Witch Beam",
+      "releaseYear": 2021,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "8 hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Unpack boxes and organize each room while discovering the story of someone's life through the belongings they choose to keep and display.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1135690/Unpacking/"
+    },
+    {
+      "id": 7,
+      "title": "Slime Rancher",
+      "image": "images/games/slime-rancher.webp",
+      "genre": [
+        "Adventure",
+        "Simulation",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch"
+      ],
+      "developer": "Monomi Park",
+      "releaseYear": 2017,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "30+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Collect adorable slimes, expand your ranch, explore colorful environments, and discover new species while managing resources in this cheerful farming adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/433340/Slime_Rancher/"
+    },
+    {
+      "id": 8,
+      "title": "Spiritfarer",
+      "image": "images/games/spiritfarer.webp",
+      "genre": [
+        "Adventure",
+        "Management",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Thunder Lotus Games",
+      "releaseYear": 2020,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "30+ hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Captain your magical boat, care for friendly spirits, cook meals, build new facilities, and help your passengers move on in this emotional but heartwarming adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/972660/Spiritfarer_Farewell_Edition/"
+    }, 
+    {
+      "id": 9,
+      "title": "Disney Dreamlight Valley",
+      "image": "images/games/dreamlight-valley.webp",
+      "genre": [
+        "Life Simulation",
+        "Adventure",
+        "Farming"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mac"
+      ],
+      "developer": "Gameloft",
+      "releaseYear": 2023,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "80+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Farm, cook, decorate, complete quests, and become friends with beloved Disney and Pixar characters while restoring the magical Dreamlight Valley.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1401590/Disney_Dreamlight_Valley/"
+    },
+    {
+      "id": 10,
+      "title": "Coral Island",
+      "image": "images/games/coral-island.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Stairway Games",
+      "releaseYear": 2023,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "70+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Build your dream farm on a tropical island, restore coral reefs, befriend townsfolk, raise animals, and customize your home in this relaxing farming adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1158160/Coral_Island/"
+    },
+    {
+      "id": 11,
+      "title": "Tiny Glade",
+      "image": "images/games/tiny-glade.webp",
+      "genre": [
+        "Building",
+        "Sandbox",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Pounce Light",
+      "releaseYear": 2024,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "Relaxed",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Design charming castles, cottages, and peaceful landscapes without objectives or time limits. Tiny Glade is all about creativity, relaxation, and beautiful scenery.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2198150/Tiny_Glade/"
+    },
+    {
+      "id": 12,
+      "title": "Dinkum",
+      "image": "images/games/dinkum.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "Adventure",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "James Bendon",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "60+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Build your own town in the Australian outback by farming, fishing, mining, hunting, decorating, and making friends with unique villagers. Explore freely and shape your island however you like.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1062520/Dinkum/"
+    },
+    {
+      "id": 13,
+      "title": "Palia",
+      "image": "images/games/palia.webp",
+      "genre": [
+        "Life Simulation",
+        "MMORPG",
+        "Adventure",
+        "Crafting"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Singularity 6",
+      "releaseYear": 2023,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "100+ hours",
+      "artStyle": "3D",
+      "priceRange": "Free",
+      "description": "Live alongside other players in a peaceful fantasy world where you can decorate your home, cook, fish, hunt, farm, craft furniture, and complete quests together.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2707930/Palia/"
+    },
+    {
+      "id": 14,
+      "title": "Sun Haven",
+      "image": "images/games/sun-haven.webp",
+      "genre": [
+        "Farming Simulator",
+        "RPG",
+        "Life Simulation",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Pixel Sprout Studios",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "80+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Grow crops, master magic, battle monsters, romance villagers, and customize your farm in a fantasy world filled with charming characters and relaxing gameplay.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1432860/Sun_Haven/"
+    },
+    
+    {
+      "id": 15,
+      "title": "Coffee Talk",
+      "image": "images/games/coffee-talk.webp",
+      "genre": [
+        "Visual Novel",
+        "Story Rich",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Toge Productions",
+      "releaseYear": 2020,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "6-8 hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Serve warm drinks to fantasy-inspired customers while listening to their stories and offering comfort in a relaxing late-night café filled with soothing music.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/914800/Coffee_Talk/"
+    },
+    {
+      "id": 16,
+      "title": "A Short Hike",
+      "image": "images/games/a-short-hike.webp",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Open World"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Adam Robinson-Yu",
+      "releaseYear": 2019,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "2-4 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Hike, glide, fish, collect treasures, and meet friendly characters while exploring a beautiful mountain park at your own pace in this wholesome adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1055540/A_Short_Hike/"
+    },
+    {
+      "id": 17,
+      "title": "Mail Time",
+      "image": "images/games/mail-time.webp",
+      "genre": [
+        "Adventure",
+        "Platformer",
+        "Exploration"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation"
+      ],
+      "developer": "Kela van der Deijl",
+      "releaseYear": 2023,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "3-5 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Become a cheerful mail scout delivering letters and packages to adorable woodland creatures while exploring a colorful forest filled with secrets and friendly faces.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1607240/Mail_Time/"
+    },
+    {
+      "id": 18,
+      "title": "Alba: A Wildlife Adventure",
+      "image": "images/games/alba.webp",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Nature"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mobile"
+      ],
+      "developer": "ustwo games",
+      "releaseYear": 2020,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "4-6 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Explore a beautiful Mediterranean island, photograph wildlife, clean up the environment, and help protect nature while enjoying a relaxing family-friendly adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1337010/Alba_A_Wildlife_Adventure/"
+    },
+    {
+      "id": 19,
+      "title": "Cozy Grove",
+      "image": "images/games/cozy-grove.webp",
+      "genre": [
+        "Life Simulation",
+        "Adventure",
+        "Crafting"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mobile"
+      ],
+      "developer": "Spry Fox",
+      "releaseYear": 2021,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "40+ hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Camp on a haunted but friendly island, help ghostly bears with daily tasks, craft decorations, fish, collect resources, and slowly bring the island back to life.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1458100/Cozy_Grove/"
+    },
+    {
+      "id": 20,
+      "title": "Wylde Flowers",
+      "image": "images/games/wylde-flowers.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Mac",
+        "Mobile"
+      ],
+      "developer": "Studio Drydock",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "50+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Balance life as a farmer and a witch by growing crops, brewing magical potions, caring for animals, building friendships, and uncovering the mysteries of Fairhaven.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1896700/Wylde_Flowers/"
+    },
+    {
+      "id": 21,
+      "title": "My Time at Sandrock",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Life Simulation",
+        "Farming Simulator",
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch"
+      ],
+      "developer": "Pathea Games",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "80+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Become the newest builder in the desert town of Sandrock, gathering resources, crafting machines, farming, exploring ruins, and helping rebuild the community through engaging quests.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/"
+    },
+    {
+      "id": 22,
+      "title": "Garden Galaxy",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Sandbox",
+        "Building",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Birdsong Games",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "Unlimited",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Decorate tiny floating gardens with hundreds of adorable plants, furniture, buildings, and decorations. There are no objectives—just endless creativity and peaceful world-building.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1970460/Garden_Galaxy/"
+    },
+    {
+      "id": 23,
+      "title": "Bear and Breakfast",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Adventure",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Gummy Cat",
+      "releaseYear": 2022,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "25+ hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Play as Hank the bear as you renovate cabins, welcome guests, decorate rooms, gather supplies, and uncover the mysteries hidden deep within the surrounding forest.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1136370/Bear_and_Breakfast/"
+    },
+    {
+      "id": 24,
+      "title": "Dorfromantik",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Puzzle",
+        "Strategy",
+        "Building"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Toukana Interactive",
+      "releaseYear": 2022,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "Unlimited",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Place hexagonal tiles to create beautiful villages, forests, rivers, and railways while chasing high scores in one of the most relaxing strategy puzzle games available.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1455840/Dorfromantik/"
+    },
+    {
+      "id": 25,
+      "title": "Potion Permit",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "RPG",
+        "Life Simulation",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "MassHive Media",
+      "releaseYear": 2022,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "30+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Gather herbs, diagnose illnesses, brew potions, and build relationships with the townsfolk as the community's newest chemist in a charming pixel-art world.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1337760/Potion_Permit/"
+    },
+    {
+      "id": 26,
+      "title": "Travellers Rest",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Simulation",
+        "Crafting"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Isolated Games",
+      "releaseYear": 2020,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "60+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Run your own medieval tavern by brewing drinks, cooking meals, farming ingredients, decorating rooms, and keeping guests happy while expanding your business.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1139980/Travellers_Rest/"
+    },
+    {
+      "id": 27,
+      "title": "House Flipper",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Simulation",
+        "Building",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox",
+        "Mobile"
+      ],
+      "developer": "Empyrean",
+      "releaseYear": 2018,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "50+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Buy neglected homes, clean, paint, renovate, decorate, and sell them for profit. Whether designing dream kitchens or cozy bedrooms, creativity is always rewarded.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/613100/House_Flipper/"
+    },
+    {
+      "id": 28,
+      "title": "Garden Life: A Cozy Simulator",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Gardening",
+        "Simulation",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox",
+        "Nintendo Switch"
+      ],
+      "developer": "stillalive studios",
+      "releaseYear": 2024,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "25+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Restore an abandoned community garden by planting flowers, arranging colorful landscapes, completing relaxing tasks, and watching your peaceful oasis flourish.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1915380/Garden_Life_A_Cozy_Simulator/"
+    },
+    {
+      "id": 29,
+      "title": "Loddlenaut",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Moon Lagoon",
+      "releaseYear": 2023,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "10-15 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Clean pollution from a vibrant underwater planet, recycle waste, rescue adorable aquatic creatures called Loddles, and help restore the ocean's natural beauty.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1644940/Loddlenaut/"
+    },
+    {
+      "id": 30,
+      "title": "Kind Words",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Casual",
+        "Social",
+        "Relaxation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Popcannibal",
+      "releaseYear": 2019,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "Unlimited",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Write anonymous letters of encouragement to real people around the world while listening to relaxing lo-fi music. Kind Words is a wholesome experience focused on empathy, positivity, and community.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1070710/Kind_Words_lo_fi_chill_beats_to_write_to/"
+    },
+    {
+      "id": 31,
+      "title": "Lil Gator Game",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "MegaWobble",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "5-8 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Explore a colorful island as an adventurous little gator, climb mountains, glide across landscapes, complete playful quests, and help your friends prepare for the ultimate imaginary adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1586800/Lil_Gator_Game/"
+    },
+    {
+      "id": 32,
+      "title": "Cat Cafe Manager",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Simulation",
+        "Life Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Roost Games",
+      "releaseYear": 2022,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "15-25 hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Restore a charming cat café, adopt lovable cats, hire staff, prepare delicious meals, decorate every room, and build friendships with the quirky locals who visit every day.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1354830/Cat_Cafe_Manager/"
+    },
+    {
+      "id": 33,
+      "title": "Lake",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Story Rich",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Gamious",
+      "releaseYear": 2021,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "6-10 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Take a break from city life as you deliver mail through a peaceful lakeside town, reconnect with old friends, meet new people, and decide what your future should look like.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1118240/Lake/"
+    },
+    {
+      "id": 34,
+      "title": "Ooblets",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "Creature Collector",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Xbox"
+      ],
+      "developer": "Glumberland",
+      "releaseYear": 2022,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "40+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Grow your farm, collect adorable Ooblets, participate in dance battles, decorate your home, and make friends in a quirky world filled with colorful characters and relaxing activities.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/593150/Ooblets/"
+    },
+    {
+      "id": 35,
+      "title": "Calico",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Life Simulation",
+        "Adventure",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Peachy Keen Games",
+      "releaseYear": 2020,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "8-12 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Run a magical cat café, decorate every room, collect adorable animals, bake tasty treats, and explore a whimsical village full of friendly residents and charming quests.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1112890/Calico/"
+    },
+    {
+      "id": 36,
+      "title": "Moonstone Island",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Simulator",
+        "RPG",
+        "Creature Collector",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Studio Supersoft",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "60+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Travel between floating islands, collect magical spirits, build your farm, craft useful items, form friendships, and discover ancient mysteries in a beautiful pixel-art world.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1658150/Moonstone_Island/"
+    },
+    {
+      "id": 37,
+      "title": "Roots of Pacha",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Simulator",
+        "Life Simulation",
+        "RPG"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Soda Den",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "70+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Experience farming during the Stone Age as you discover new technologies, raise animals, explore caves, build your village, and work together with your growing community.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1245560/Roots_of_Pacha/"
+    },
+    {
+      "id": 38,
+      "title": "Littlewood",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Life Simulation",
+        "Farming Simulator",
+        "RPG"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Sean Young",
+      "releaseYear": 2020,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "40+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "After saving the world, rebuild your peaceful hometown by farming, fishing, decorating, crafting, and becoming friends with the townspeople who depend on your leadership.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/894940/Littlewood/"
+    },
+    {
+      "id": 39,
+      "title": "Sticky Business",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Simulation",
+        "Management",
+        "Casual"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Spellgarden Games",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "10-20 hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Design your own stickers, package customer orders, grow your online shop, unlock new art assets, and read heartwarming customer stories while building a successful small business.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2303350/Sticky_Business/"
+    },
+    {
+      "id": 40,
+      "title": "Townscaper",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Building",
+        "Sandbox",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Mobile",
+        "Xbox"
+      ],
+      "developer": "Oskar Stålberg",
+      "releaseYear": 2021,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "Unlimited",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Create picturesque seaside towns one click at a time with no goals or pressure. Every building forms naturally, making Townscaper a relaxing digital toy for creative minds.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1291340/Townscaper/"
+    },
+    {
+      "id": 41,
+      "title": "Hokko Life",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Life Simulation",
+        "Farming Simulator",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Wonderscope Games",
+      "releaseYear": 2022,
+      "rating": 4.4,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "50+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Move into the quiet village of Hokko and transform it into your dream town by crafting furniture, decorating homes, fishing, catching bugs, farming, and befriending adorable animal villagers.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/824000/Hokko_Life/"
+    },
+    {
+      "id": 42,
+      "title": "Garden Story",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "RPG",
+        "Exploration"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Picogram",
+      "releaseYear": 2021,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "12-15 hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Play as Concord, a tiny grape guardian tasked with restoring harmony to The Grove by exploring colorful regions, helping neighbors, solving puzzles, and battling the mysterious Rot.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1062140/Garden_Story/"
+    },
+    {
+      "id": 43,
+      "title": "Minami Lane",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Simulation",
+        "Strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Doot Tiny Games",
+      "releaseYear": 2024,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "2-4 hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Design and manage a charming Japanese-inspired street by placing shops, decorating buildings, attracting happy residents, and balancing your businesses in a peaceful city-building experience.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2678990/Minami_Lane/"
+    },
+    {
+      "id": 44,
+      "title": "Assemble with Care",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Puzzle",
+        "Story Rich",
+        "Casual"
+      ],
+      "platforms": [
+        "PC",
+        "Mobile"
+      ],
+      "developer": "ustwo games",
+      "releaseYear": 2020,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "3-5 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Repair treasured objects for the people of Bellariva while uncovering heartfelt stories about family, friendship, and healing in this relaxing narrative puzzle adventure.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1202900/Assemble_with_Care/"
+    },
+    {
+      "id": 45,
+      "title": "Venba",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Narrative",
+        "Cooking",
+        "Puzzle"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Visai Games",
+      "releaseYear": 2023,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "1-2 hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Cook authentic South Indian dishes while following the emotional journey of an immigrant family navigating love, culture, language, and identity across generations.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1491670/Venba/"
+    },
+    {
+      "id": 46,
+      "title": "Europa",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation",
+        "Xbox"
+      ],
+      "developer": "Helder Pinto",
+      "releaseYear": 2024,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "4-6 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Glide through lush landscapes on the moon Europa, solve gentle environmental puzzles, uncover the history of a forgotten civilization, and enjoy breathtaking scenery inspired by Studio Ghibli.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2214880/Europa/"
+    },
+    {
+      "id": 47,
+      "title": "Summerhouse",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Building",
+        "Sandbox",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Friedemann",
+      "releaseYear": 2024,
+      "rating": 4.9,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "Unlimited",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Build tiny, beautiful homes without objectives, timers, or resource management. Experiment with colors, windows, plants, and rooftops to create charming neighborhoods at your own pace.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2533960/SUMMERHOUSE/"
+    },
+    {
+      "id": 48,
+      "title": "Go-Go Town!",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "City Builder",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Prideful Sloth",
+      "releaseYear": 2024,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "40+ hours",
+      "artStyle": "Low Poly",
+      "priceRange": "Budget",
+      "description": "Revive a forgotten tourist town by gathering resources, constructing businesses, decorating streets, attracting visitors, and working together with friends in online co-op.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2195120/GoGo_Town/"
+    },
+    {
+      "id": 49,
+      "title": "Animal Shelter",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Simulation",
+        "Management",
+        "Life Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Games Incubator",
+      "releaseYear": 2022,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "30+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Rescue abandoned cats and dogs, care for their daily needs, play with them, treat illnesses, and help each animal find a loving forever home.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1239320/Animal_Shelter/"
+    },
+    {
+      "id": 50,
+      "title": "Fresh Start",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Simulation",
+        "Exploration",
+        "Nature"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Chicken Launcher",
+      "releaseYear": 2022,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "8-12 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Travel across beautiful natural environments using a magical water hose to clean pollution, revive plants, rescue wildlife, and restore vibrant ecosystems back to life.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1856030/Fresh_Start_Cleaning_Simulator/"
+    },
+    {
+      "id": 51,
+      "title": "Kynseed",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Life Sim",
+        "RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "PixelCount Studios",
+      "releaseYear": 2022,
+      "rating": 4.6,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "60+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Kynseed is a charming life simulation RPG where time passes naturally through generations. Farm, run shops, explore magical forests, build relationships, and create your own family legacy in a beautiful handcrafted world.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/758870/Kynseed/"
+    },
+    {
+      "id": 52,
+      "title": "Snacko",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Sim",
+        "Life Sim"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "Bluecurse Studios",
+      "releaseYear": 2023,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "40+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Play as an adventurous cat who moves to a forgotten island to rebuild a thriving village. Farm crops, decorate your home, fish, craft furniture, and befriend adorable animal villagers.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1125510/Snacko/"
+    },
+    {
+      "id": 53,
+      "title": "Everdream Valley",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Sim",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation 5",
+        "Xbox Series X/S"
+      ],
+      "developer": "Mooneaters",
+      "releaseYear": 2023,
+      "rating": 4.3,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "25+ hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Spend a magical summer restoring your grandparents' farm, caring for animals, growing crops, fishing, and exploring dreamlike adventures with your animal companions.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1403650/Everdream_Valley/"
+    },
+    {
+      "id": 54,
+      "title": "Lemon Cake",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Cooking"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Cozy Bee Games",
+      "releaseYear": 2021,
+      "rating": 4.5,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "20+ hours",
+      "artStyle": "2D",
+      "priceRange": "Budget",
+      "description": "Restore an abandoned bakery and transform it into a bustling café. Bake delicious pastries, grow fresh ingredients in your greenhouse, and serve happy customers every day.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1338330/Lemon_Cake/"
+    },
+    {
+      "id": 55,
+      "title": "Little Kitty, Big City",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Exploration"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "Xbox Series X/S"
+      ],
+      "developer": "Double Dagger Studio",
+      "releaseYear": 2024,
+      "rating": 4.8,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "5-8 hours",
+      "artStyle": "3D",
+      "priceRange": "Budget",
+      "description": "Explore a lively city as a curious cat, make animal friends, complete fun quests, wear adorable hats, and cause just enough mischief before finding your way home.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1177980/Little_Kitty_Big_City/"
+    },
+    {
+      "id": 56,
+      "title": "Fae Farm",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Farming Sim",
+        "RPG"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch"
+      ],
+      "developer": "Phoenix Labs",
+      "releaseYear": 2023,
+      "rating": 4.4,
+      "cozyRating": 5,
+      "multiplayer": true,
+      "playTime": "50+ hours",
+      "artStyle": "3D",
+      "priceRange": "Expensive",
+      "description": "Build your dream magical farm, discover enchanted creatures, craft equipment, decorate your home, and explore whimsical dungeons alone or with friends.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2230110/Fae_Farm/"
+    },
+    {
+      "id": 57,
+      "title": "Potion Craft",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Simulation",
+        "Management"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X/S",
+        "Nintendo Switch"
+      ],
+      "developer": "niceplay games",
+      "releaseYear": 2022,
+      "rating": 4.7,
+      "cozyRating": 4,
+      "multiplayer": false,
+      "playTime": "30+ hours",
+      "artStyle": "Medieval Illustration",
+      "priceRange": "Budget",
+      "description": "Run your own medieval alchemy shop by brewing potions from herbs and ingredients. Experiment with recipes, negotiate with customers, and expand your reputation as a skilled alchemist.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1210320/Potion_Craft_Alchemist_Simulator/"
+    },
+    {
+      "id": 58,
+      "title": "Dave the Diver",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Adventure",
+        "Management"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation 5"
+      ],
+      "developer": "MINTROCKET",
+      "releaseYear": 2023,
+      "rating": 4.9,
+      "cozyRating": 4,
+      "multiplayer": false,
+      "playTime": "35+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Dive into the mysterious Blue Hole during the day to catch fish, then manage a successful sushi restaurant at night. The game combines exploration, management, and lighthearted storytelling.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/"
+    },
+    {
+      "id": 59,
+      "title": "Let's Build a Zoo",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation 5",
+        "Xbox Series X/S"
+      ],
+      "developer": "Springloaded",
+      "releaseYear": 2021,
+      "rating": 4.5,
+      "cozyRating": 4,
+      "multiplayer": false,
+      "playTime": "40+ hours",
+      "artStyle": "Pixel Art",
+      "priceRange": "Budget",
+      "description": "Design and manage your own zoo, care for hundreds of animals, decorate habitats, hire staff, and even create quirky hybrid animals through DNA splicing.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/1547890/Lets_Build_a_Zoo/"
+    },
+    {
+      "id": 60,
+      "title": "Tiny Bookshop",
+      "image": "images/games/placeholder.webp",
+      "genre": [
+        "Management",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "developer": "neoludic games",
+      "releaseYear": 2025,
+      "rating": 4.7,
+      "cozyRating": 5,
+      "multiplayer": false,
+      "playTime": "15+ hours",
+      "artStyle": "Hand Drawn",
+      "priceRange": "Budget",
+      "description": "Open a charming travelling bookshop, recommend books to customers based on their personalities, decorate your mobile bookstore, and help revive peaceful small-town communities.",
+      "isFavorite": false,
+      "storeLink": "https://store.steampowered.com/app/2133760/Tiny_Bookshop/"
+    }
+  ]
+}
