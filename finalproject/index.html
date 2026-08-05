@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="styles/midnight-nook-large.css">
 
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/games.js" defer></script>
+    <script src="scripts/sliders.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,9 +33,9 @@
         <h1>Midnight Nook</h1>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="#">Home</a></li>
-                <li><a href="#">Library</a></li>
-                <li><a href="#">Recommendations</a></li>
+                <li class="current"><a href="https://rachaelo05.github.io/wdd231/finalproject/index">Home</a></li>
+                <li><a href="https://rachaelo05.github.io/wdd231/finalproject/library">Library</a></li>
+                <li><a href="https://rachaelo05.github.io/wdd231/finalproject/recommendations">Recommendations</a></li>
             </ul>
         </nav>
         <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
@@ -49,7 +51,7 @@
                 <span>Peaceful moments.</span>
                 <span>Your kind of adventure.</span>
                 <p>A curated library of relaxing games to help you unwind and escape</p>
-                <a href="#" class="explore-btn">Start Exploring</a>
+                <a href="https://rachaelo05.github.io/wdd231/finalproject/library" class="explore-btn">Start Exploring</a>
             </div>
         </div>
         <div class="information">
@@ -77,9 +79,10 @@
                 </div>
             </section>
         </div>
-        <section>
+        <div class="slider-dots" id="slider-dots"></div>
+        <section class="featured">
             <h2>Featured Picks</h2>
-            <div class="featured" id="featured"></div>
+            <div id="featured"></div>
         </section>
     </main>
     <footer>
