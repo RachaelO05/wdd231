@@ -52,7 +52,67 @@
                 <p>Browse our collection of cozy games</p>
             </div>
         </div>
-        <div id="library"></div>
+        <div class="filters">
+            <div>
+                <label for="genre"></label>
+                <select id="genre">
+                    <option value="">All Genres</option>
+                    <option value="Farming">Farming</option>
+                    <option value="Life Sim">Life Sim</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Puzzle">Puzzle</option>
+                    <option value="RPG">RPG</option>
+                    <option value="Building">Building</option>
+                    <option value="Management">Management</option>
+                    <option value="Exploration">Exploration</option>
+                    <option value="Visual Novel">Visual Novel</option>
+                    <option value="Platformer">Platformer</option>
+                    <option value="Sandbox">Sandbox</option>
+                    <option value="Crafting">Crafting</option>
+                    <option value="Simulation">Simulation</option>
+                    <option value="Story Rich">Story Rich</option>
+                    <option value="Casual">Casual</option>
+                </select>
+            </div>
+            <div>
+                <label for="platforms"></label>
+                <select id="platforms">
+                    <option value="">All Platforms</option>
+                    <option value="PC">PC</option>
+                    <option value="Nintendo Switch">Nintendo Switch</option>
+                    <option value="PlayStation">PlayStation</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="Mobile">Mobile</option>
+                </select>
+            </div>
+            <div>
+                <label for="multiplayer"></label>
+                <select id="multiplayer">
+                    <option value="" selected disabled>Multiplayer</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            <div>
+                <label for="priceRange"></label>
+                <select id="priceRange">
+                    <option value="" selected disabled>Price</option>
+                    <option value="Free">Free</option>
+                    <option value="Budget">Budget</option>
+                    <option value="Expensive">Expensive</option>
+                </select>
+            </div>
+            <div>
+                <label for="rating"></label>
+                <select id="rating">
+                    <option value="" selected disabled>Rating</option>
+                    <option value="ascending">Low to High</option>
+                    <option value="descending">High to Low</option>
+                </select>
+            </div>
+        </div>
+        <div id="library" class="featured"></div>
+        <dialog id="gameModal" class="modals"></dialog>
     </main>
     <footer>
         <section>

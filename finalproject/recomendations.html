@@ -46,11 +46,88 @@
                 <source srcset="images/hero-img-medium.webp" media="(min-width: 700px)">
                 <img src="images/hero-img-small.webp" alt="hero-img" loading="lazy">
             </picture>
-            <div class="recommend-text">
+            <div class="recommendations-text">
                 <span>Got a cozy game you'd recommend to others?</span>
                 <p>Fill out our form so we can add it to our library!</p>
             </div>
         </div>
+        <form action="submit.html" method="get">
+        
+            <fieldset>
+                <legend>Game Information</legend>
+        
+                <label for="title">Game Title *</label>
+                <input type="text" id="title" name="title" required>
+        
+                <label for="developer">Developer</label>
+                <input type="text" id="developer" name="developer">
+        
+                <label for="releaseYear">Release Year</label>
+                <input type="number" id="releaseYear" name="releaseYear" min="1970" max="2100">
+        
+                <label for="playTime">Estimated Play Time</label>
+                <input type="text" id="playTime" name="playTime" placeholder="e.g. 20+ hours">
+        
+                <label for="artStyle">Art Style</label>
+                <input type="text" id="artStyle" name="artStyle">
+            </fieldset>
+        
+            <fieldset>
+                <legend>Genres *</legend>
+        
+                <label><input type="checkbox" name="genre" value="Farming"> Farming</label>
+                <label><input type="checkbox" name="genre" value="Life Sim"> Life Sim</label>
+                <label><input type="checkbox" name="genre" value="Adventure"> Adventure</label>
+                <label><input type="checkbox" name="genre" value="Puzzle"> Puzzle</label>
+                <label><input type="checkbox" name="genre" value="RPG"> RPG</label>
+                <label><input type="checkbox" name="genre" value="Building"> Building</label>
+                <label><input type="checkbox" name="genre" value="Management"> Management</label>
+                <label><input type="checkbox" name="genre" value="Exploration"> Exploration</label>
+                <label><input type="checkbox" name="genre" value="Visual Novel"> Visual Novel</label>
+                <label><input type="checkbox" name="genre" value="Platformer"> Platformer</label>
+                <label><input type="checkbox" name="genre" value="Sandbox"> Sandbox</label>
+                <label><input type="checkbox" name="genre" value="Crafting"> Crafting</label>
+                <label><input type="checkbox" name="genre" value="Simulation"> Simulation</label>
+                <label><input type="checkbox" name="genre" value="Story Rich"> Story Rich</label>
+                <label><input type="checkbox" name="genre" value="Casual"> Casual</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Platforms *</legend>
+        
+                <label><input type="checkbox" name="platforms" value="PC"> PC</label>
+                <label><input type="checkbox" name="platforms" value="Nintendo Switch"> Nintendo Switch</label>
+                <label><input type="checkbox" name="platforms" value="PlayStation"> PlayStation</label>
+                <label><input type="checkbox" name="platforms" value="Xbox"> Xbox</label>
+                <label><input type="checkbox" name="platforms" value="Mobile"> Mobile</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Game Details</legend>
+        
+                <p>Multiplayer *</p>
+                <label>
+                    <input type="radio" name="multiplayer" value="true" required>
+                    Yes
+                </label>
+        
+                <label>
+                    <input type="radio" name="multiplayer" value="false">
+                    No
+                </label>
+        
+                <label for="priceRange">Price Range *</label>
+                <select id="priceRange" name="priceRange" required>
+                    <option value="" disabled selected>Select a price range</option>
+                    <option value="Free">Free</option>
+                    <option value="Budget">Budget</option>
+                    <option value="Expensive">Expensive</option>
+                </select>
+            </fieldset>
+        
+            <input type="submit" value="Submit Game">
+        
+        </form>
     </main>
     <footer>
         <section>

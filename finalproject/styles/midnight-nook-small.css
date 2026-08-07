@@ -32,6 +32,7 @@ header img {
     width: 44px;
     height: 44px;
     padding-left: 1rem;
+    align-self: center;
 }
 
 .hamburger {
@@ -43,6 +44,7 @@ header img {
     cursor: pointer;
     grid-column: 3;
     grid-row: 1;
+    align-self: center;
 }
 
 .hamburger::after {
@@ -100,14 +102,14 @@ header img {
     overflow: hidden;
 }
 
-.hero-image img {
+.hero-image img, .hero-image-medium img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.introduction-text {
+.introduction-text, .library-text, .recommendations-text {
     inset: 0;
     position: absolute;
     width: 100%;
@@ -115,19 +117,24 @@ header img {
     background-color: #0c1020a9;
 }
 
-.introduction-text p, .introduction-text span {
+.introduction-text p, .introduction-text span, .library-text p, .library-text span, .recommendations-text p, .recommendations-text span {
     position: absolute;
     color: var(--text);
 }
 
-.introduction-text span {
+.introduction-text span, .library-text span, .recommendations-text span {
     font-family: var(--heading-font);
     font-size: 300%;
     left: 40px;
+    line-height: 0.9;
 }
 
 .introduction-text span:nth-of-type(1) {
     top: 100px;
+}
+
+.library-text span, .recommendations-text span {
+    top: 200px;
 }
 
 .introduction-text span:nth-of-type(2) {
@@ -135,22 +142,33 @@ header img {
 }
 
 .introduction-text span:nth-of-type(3) {
-    top: 270px;
-    line-height: 0.9;
+    top: 300px;
+}
+
+.introduction-text p, .library-text p, .recommendations-text p {
+    left: 40px;
+    font-size: 120%;
+    max-width: 300px;
 }
 
 .introduction-text p {
-    left: 80px;
     top: 550px;
-    font-size: 120%;
-    max-width: 300px;
-    text-align: center;
+}
+
+.library-text p {
+    left: 50px;
+    top: 300px;
+}
+
+.recommendations-text p {
+    left: 50px;
+    top: 350px;
 }
 
 .explore-btn {
     position: absolute;
     top: 640px;
-    left: 135px;
+    left: 50px;
     padding: 1rem;
     font-size: 150%;
     font-weight: bold;
@@ -166,10 +184,10 @@ header img {
     color: var(--text);
 }
 
+
 .information {
     background-color: var(--primary);
     color: var(--text);
-    padding: 1rem;
     width: 100%;
     align-items: center;
 
@@ -177,9 +195,17 @@ header img {
     overflow-x: auto;
 
     scroll-snap-type: x mandatory;
+    box-sizing: border-box;
+
+    scrollbar-width: none;
+}
+
+.information::-webkit-scrollbar {
+    display: none;
 }
 
 .slide {
+    padding: 1rem;
     min-width: 100%;
     scroll-snap-align: start;
 }
@@ -192,7 +218,6 @@ header img {
 .slide.hero h2, .slide.why h2 {
     font-size: 180%;
 }
-
 .slide.why div{
     display: grid;
     grid-template-columns: 80px 1fr;
@@ -212,14 +237,6 @@ header img {
 
 .slide.why p {
     grid-area: content;
-}
-
-.information::-webkit-scrollbar {
-    display: none;
-}
-
-.information {
-    scrollbar-width: none;
 }
 
 .slider-dots {
@@ -247,40 +264,62 @@ header img {
 
 
 
-.featured h2 {
+.featured-picks h2 {
     padding: 1rem;
     padding-left: 2rem;
     font-size: 200%;
     color: var(--primary);
 }
-.grid {
+.featured {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
 }
 
-.grid img,
-.grid h3, .grid p {
+.featured img,
+.featured h3, .featured p {
     display: block;
     justify-self: center;
 }
 
-.grid section {
+.featured section {
     background-color: var(--primary);
     color: var(--text);
     
     border: solid 1px var(--primary);
     border-radius: 5%;
-    min-height: 420px;
+    min-height: 320px;
     margin: 1rem;
     max-width: 300px;
+    position: relative;
 }
 
-.grid section:hover {
+.featured section:hover {
     box-shadow: 8px 8px 16px 0px var(--accent);
 }
 
-.grid img {
+.featured button {
+    position: absolute;
+    top: 5px;
+    left: 240px;
+    font-size: 300%;
+    background: none;
+    border: none;
+}
+
+.fav-btn {
+    color: rgb(244, 56, 56);
+}
+
+.fav-btn:hover, .added-fav:hover {
+    color: rgb(208, 5, 5);
+}
+
+.added-fav {
+    color: rgb(94, 11, 11);;
+}
+
+.featured img {
     width: 100%;
     height: 70%;
     aspect-ratio: 2 / 3;
@@ -291,20 +330,180 @@ header img {
     border-top-right-radius: 5%;
 }
 
-.grid h3 {
+.featured h3 {
     border-bottom: solid 2px var(--text);
     margin: .5rem;
     padding: 1rem;
-    font-size: 180%;
+    font-size: 80%;
 }
 
-.grid p {
-    font-size: .9rem;
-    font-size: 150%;
+.featured p {
+    font-size: 80%;
+    padding-bottom: 2rem;
 }
 
-.grid p strong {
+.numeric-rating {
+    display: none;
+}
+
+.featured p strong {
     color: gold;
+}
+
+
+
+.filters {
+    padding: 1rem;
+    background-color: var(--primary);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+}
+
+.filters select{
+    background-color: var(--primary);
+    color: var(--text);
+    width: 80px;
+    padding: .1rem;
+    margin: .2rem;
+    border-radius: 5%;
+}
+
+.filters div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.modals {
+    justify-self: center;
+    align-self: center;
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+.modals div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modals div:nth-of-type(2) {
+    padding: 1rem;
+    font-size: 120%;
+}
+
+.modals div:nth-of-type(2) strong{
+    font-size: 120%;
+}
+
+.modals div:nth-of-type(3) {
+    padding: 1rem;
+}
+
+.modals div:nth-of-type(3) a {
+    font-size: 70%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.modals div:nth-of-type(3) a:hover {
+    color: gray;
+}
+
+.modals button {
+    align-self: flex-end;
+    display: block;
+    background-color: var(--accent);
+    color: var(--text);
+    width: 10%;
+    font-size: 150%;
+    font-weight: bolder;
+    padding: .3rem;
+    margin: .5rem;
+    border: solid 1px var(--text);
+    border-radius: 10%;
+}
+
+.modals button:hover {
+    color: var(--accent);
+    background-color: var(--text);
+}
+
+
+
+.form h2{
+    text-align : center;
+}
+
+form {
+    background-color: var(--primary);
+    color: var(--text);
+    width: 350px;
+    justify-self: center;
+    text-align: left;
+    border: double 5px var(--text);
+    margin: 2rem;
+    padding: 1rem;
+}
+
+label {
+    display: flex;
+    padding-top: .5rem;
+}
+
+legend,
+label {
+    font-size: 120%;
+}
+
+fieldset, input[type="checkbox"] {
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+select, input[type="number"] {
+    width: 85%;
+    margin: .5rem;
+    padding: .3rem;
+}
+
+input[type="text"] {
+    width: 85%;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 110%;
+}
+
+input[type="submit"] {
+    background-color: var(--primary);
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--text);
+    display: block;
+    justify-self: center;
+}
+
+.application-info {
+    padding: 1rem;
+    margin: 3rem;
+    width: 60%;
+    background-color: var(--primary);
+    border: double 5px var(--text);
+    color: var(--text);
+}
+
+.application-info p {
+    padding: .5rem;
+}
+
+.application-info h2 {
+    text-decoration: overline;
+    font-size: 130%;
 }
 
 
