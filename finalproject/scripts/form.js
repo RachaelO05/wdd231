@@ -10,7 +10,7 @@ document.getElementById("platforms").textContent =
     info.getAll("platforms").join(", ");
 
 document.getElementById("multiplayer").textContent =
-    info.get("multiplayer");
+    info.get("multiplayer") === "true" ? "Yes" : "No";
 
 document.getElementById("priceRange").textContent =
     info.get("priceRange");

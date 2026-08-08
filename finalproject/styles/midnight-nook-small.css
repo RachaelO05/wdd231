@@ -153,7 +153,7 @@ header span {
 }
 
 .introduction-text span:nth-of-type(2) {
-    top: 250px;
+    top: 300px;
 }
 
 .introduction-text p, .library-text p, .recommendations-text p, .favorite-text p {
@@ -381,13 +381,13 @@ header span {
     background-color: var(--primary);
     color: var(--text);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .filters select{
     background-color: var(--primary);
     color: var(--text);
-    width: 80px;
+    width: 70px;
     padding: .1rem;
     margin: .2rem;
     border-radius: 5%;

@@ -93,10 +93,6 @@
         display: none;
     }
 
-    .filters {
-        justify-content: space-evenly;
-    }
-
     .filters select {
         width: 180px;
         text-align: center;
