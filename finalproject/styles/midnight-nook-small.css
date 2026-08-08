@@ -35,6 +35,12 @@ header img {
     align-self: center;
 }
 
+header span {
+    align-self: center;
+    font-size: 200%;
+    font-family: var(--heading-font);
+}
+
 .hamburger {
     min-height: 44px;
     min-width: 44px;
@@ -121,33 +127,33 @@ header img {
     background-color: #0c1020a9;
 }
 
-.introduction-text p, .introduction-text span, .library-text p, .library-text span,
-.recommendations-text p, .recommendations-text span, .favorite-text p, .favorite-text span{
+.introduction-text p, .introduction-text span,.introduction-text h1, .library-text p, .library-text h1,
+.recommendations-text p, .recommendations-text h1, .favorite-text p, .favorite-text h1{
     position: absolute;
     color: var(--text);
 }
 
-.introduction-text span, .library-text span, .recommendations-text span, .favorite-text span {
+.introduction-text span,.introduction-text h1, .library-text h1, .recommendations-text h1, .favorite-text h1 {
     font-family: var(--heading-font);
     font-size: 300%;
     left: 40px;
     line-height: 0.9;
 }
 
-.introduction-text span:nth-of-type(1) {
+.introduction-text h1 {
     top: 100px;
 }
 
-.library-text span, .recommendations-text span, .favorite-text span {
+.library-text h1, .recommendations-text h1, .favorite-text h1 {
     top: 200px;
 }
 
-.introduction-text span:nth-of-type(2) {
+.introduction-text span:nth-of-type(1) {
     top: 180px;
 }
 
-.introduction-text span:nth-of-type(3) {
-    top: 300px;
+.introduction-text span:nth-of-type(2) {
+    top: 250px;
 }
 
 .introduction-text p, .library-text p, .recommendations-text p, .favorite-text p {
@@ -381,13 +387,6 @@ header img {
 
 
 
-
-
-/* .modals {
-    margin: auto;
-    background-color: var(--primary);
-    color: var(--text);
-} */
  .modals {
      background-color: var(--primary);
      color: var(--text);
@@ -503,7 +502,7 @@ input[type="submit"] {
 .works {
     background-color: var(--primary);
     color: var(--text);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .works div {
