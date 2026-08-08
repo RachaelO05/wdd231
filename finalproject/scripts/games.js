@@ -163,11 +163,8 @@ const openModal = (game) => {
 
     modalContainer.querySelector("#closeModal").addEventListener("click", () => {
         modalContainer.close();
+        window.scrollTo(0, scrollPosition);
     });
-
-    const closeButton = modalContainer.querySelector("#closeModal");
-
-    console.log(closeButton);
 }
 
 const addFavorite = (gameId, btn) => {

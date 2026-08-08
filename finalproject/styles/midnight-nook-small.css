@@ -383,12 +383,19 @@ header img {
 
 
 
-.modals {
-    justify-self: center;
-    align-self: center;
+/* .modals {
+    margin: auto;
     background-color: var(--primary);
     color: var(--text);
-}
+} */
+ .modals {
+     background-color: var(--primary);
+     color: var(--text);
+     margin: auto;
+     width: min(90vw, 600px);
+     max-height: 85vh;
+     overflow-y: auto;
+ }
 
 .modals div:nth-of-type(1) {
     display: flex;
