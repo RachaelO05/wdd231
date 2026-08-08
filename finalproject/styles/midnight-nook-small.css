@@ -81,12 +81,16 @@ header img {
     text-decoration: none;
 }
 
-.navigation li.current a {
+.navigation li.current a, .navigation li a.fav.current {
     text-decoration: overline;
 }
 
 .navigation a:hover {
     text-decoration: overline;
+}
+
+.fav {
+    font-size: 200%;
 }
 
 
@@ -109,7 +113,7 @@ header img {
     display: block;
 }
 
-.introduction-text, .library-text, .recommendations-text {
+.introduction-text, .library-text, .recommendations-text, .favorite-text {
     inset: 0;
     position: absolute;
     width: 100%;
@@ -117,12 +121,13 @@ header img {
     background-color: #0c1020a9;
 }
 
-.introduction-text p, .introduction-text span, .library-text p, .library-text span, .recommendations-text p, .recommendations-text span {
+.introduction-text p, .introduction-text span, .library-text p, .library-text span,
+.recommendations-text p, .recommendations-text span, .favorite-text p, .favorite-text span{
     position: absolute;
     color: var(--text);
 }
 
-.introduction-text span, .library-text span, .recommendations-text span {
+.introduction-text span, .library-text span, .recommendations-text span, .favorite-text span {
     font-family: var(--heading-font);
     font-size: 300%;
     left: 40px;
@@ -133,7 +138,7 @@ header img {
     top: 100px;
 }
 
-.library-text span, .recommendations-text span {
+.library-text span, .recommendations-text span, .favorite-text span {
     top: 200px;
 }
 
@@ -145,7 +150,7 @@ header img {
     top: 300px;
 }
 
-.introduction-text p, .library-text p, .recommendations-text p {
+.introduction-text p, .library-text p, .recommendations-text p, .favorite-text p {
     left: 40px;
     font-size: 120%;
     max-width: 300px;
@@ -160,7 +165,7 @@ header img {
     top: 300px;
 }
 
-.recommendations-text p {
+.recommendations-text p, .favorite-text p {
     left: 50px;
     top: 350px;
 }
@@ -486,6 +491,28 @@ input[type="submit"] {
     color: var(--text);
     display: block;
     justify-self: center;
+}
+
+.works {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 1rem;
+}
+
+.works div {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-areas:
+    "icon content";
+    padding: .5rem;
+}
+
+.works img {
+    grid-area: icon;
+}
+
+.works p {
+    grid-area: content;
 }
 
 .application-info {

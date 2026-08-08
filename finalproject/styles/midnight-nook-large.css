@@ -36,6 +36,13 @@
         display: flex;
     }
 
+    .fav {
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .hero-image-medium {
         display: block;
         width: 100%;
@@ -64,11 +71,11 @@
         text-align: left;
     }
 
-    .library-text span, .recommendations-text span {
+    .library-text span, .recommendations-text span, .favorite-text span {
         top: 100px;
     }
 
-    .library-text p, .recommendations-text p {
+    .library-text p, .recommendations-text p, .favorite-text p {
         top: 200px;
         left: 40px;
     }
@@ -120,6 +127,7 @@
     .modals {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: relative;
     }
 
     .modals div:nth-of-type(1) {
@@ -139,10 +147,55 @@
         text-align: center;
     }
 
+    .modals button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+        width: 70px;
+    }
 
+    .modals img {
+        padding-top: 2rem;
+    }
+
+    .recommendations-info  {
+        display: flex;
+    }
 
     form {
         width: 1000px;
+        justify-self: left;
+    }
+
+    .works {
+        margin: 2rem;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .works h2 {
+        align-self: flex-start;
+        font-size: 300%;
+    }
+
+    .works div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 200%;
+        flex: 1;
+    }
+
+    .works img {
+        display: block;
+        align-self: center;
+        width: 150px;
+        height: 150px;
     }
 
 

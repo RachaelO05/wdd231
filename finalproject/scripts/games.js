@@ -25,6 +25,7 @@ async function getGamesData() {
             displayFeatures(allGames, featureContainer);
         }
 
+        displayFavorites();
         
     }
     catch (error) {
@@ -68,7 +69,13 @@ const displayGames = (games, div) => {
         }
 
         favBtn.textContent = `❤︎`;
-        favBtn.classList.add('fav-btn');
+        const savedFavorite = favorites.find(fav => fav.id === game.id);
+
+        if (savedFavorite) {
+            favBtn.classList.add(savedFavorite.class);
+        } else {
+            favBtn.classList.add('fav-btn');
+        }
 
         section.appendChild(picture);
         section.appendChild(title);
@@ -100,6 +107,20 @@ const displayFeatures = (games, div) => {
     const selectedGames = featureFilter.slice(0, 4);
     displayGames(selectedGames, div);
 }
+
+const displayFavorites = () => {
+    const favoriteContainer = document.querySelector("#favorites");
+
+    if (!favoriteContainer) return;
+
+    const favoriteGames = allGames.filter(game =>
+        favorites.some(fav => fav.id === game.id)
+    );
+
+    favoriteContainer.innerHTML = "";
+
+    displayGames(favoriteGames, favoriteContainer);
+};
 
 const openModal = (game) => {
     modalContainer.innerHTML = `
@@ -143,26 +164,34 @@ const openModal = (game) => {
     modalContainer.querySelector("#closeModal").addEventListener("click", () => {
         modalContainer.close();
     });
+
+    const closeButton = modalContainer.querySelector("#closeModal");
+
+    console.log(closeButton);
 }
 
 const addFavorite = (gameId, btn) => {
-    if (favorites.includes(gameId)) {
 
-        favorites = favorites.filter(id => id !== gameId);
+    if (favorites.some(fav => fav.id === gameId)) {
+
+        favorites = favorites.filter(fav => fav.id !== gameId);
 
         btn.classList.add('fav-btn');
         btn.classList.remove('added-fav');
 
     } else {
 
-        favorites.push(gameId);
+        favorites.push({
+            id: gameId,
+            class: "added-fav"
+        });
 
         btn.classList.add('added-fav');
         btn.classList.remove('fav-btn');
     }
 
     localStorage.setItem("favorites", JSON.stringify(favorites));
-}
+};
 
 const genreFilter = document.querySelector("#genre");
 const platformFilter = document.querySelector("#platforms");
