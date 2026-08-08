@@ -149,7 +149,7 @@ header span {
 }
 
 .introduction-text span:nth-of-type(1) {
-    top: 180px;
+    top: 200px;
 }
 
 .introduction-text span:nth-of-type(2) {
@@ -173,7 +173,7 @@ header span {
 
 .recommendations-text p, .favorite-text p {
     left: 50px;
-    top: 350px;
+    top: 400px;
 }
 
 .explore-btn {
@@ -312,7 +312,7 @@ header span {
 .featured button {
     position: absolute;
     top: 5px;
-    left: 240px;
+    left: 160px;
     font-size: 300%;
     background: none;
     border: none;

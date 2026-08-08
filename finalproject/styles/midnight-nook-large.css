@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
 
     main {
         justify-self: center;
@@ -118,6 +118,10 @@
 
     .featured section {
         min-height: 420px;
+    }
+
+    .featured button {
+        left: 240px;
     }
 
     .numeric-rating {
